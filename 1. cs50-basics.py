@@ -10,12 +10,16 @@ print(name) #pass a variable to the print function
 print("Hello, " + name + "!") # Concatenate strings to greet the user
 print("Hello,", name) # Concatenate with a default space
 
-""" Print Function Documentation
+#**************************************************************************************************
+#*******************************Print Function Documentation***************************************
+""" 
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 This function prints the objects to the text stream file, separated by sep and followed by end.
 - *objects: The objects to be printed. Multiple objects can be passed.
 """
+#**************************************************************************************************
+
 
 #String Manipulation
 name = name.strip()  # Remove leading and trailing whitespace
