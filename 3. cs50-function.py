@@ -1,7 +1,6 @@
-"""Functions: Parameters vs Arguments
-
-
-Function Definition:
+#*********************************************************************************
+# *********************Functions: Parameters vs Arguments*************************
+"""Functions:
 Think of a function as a trading strategy template that you can reuse.
 
 def calculate_profit(buy_price, sell_price, quantity):  --# These are PARAMETERS
@@ -43,8 +42,25 @@ def analyze_stock(symbol, current_price, target_price):  # Parameters
 apple_return, apple_rec = analyze_stock("AAPL", 150, 180)      # Arguments
 tesla_return, tesla_rec = analyze_stock("TSLA", 200, 250)      # Arguments
 """
+#*********************************************************************************
+
+#*********************************************************************************
+# Function Definition
+#*********************************************************************************
 
 def hello(name):
     print(f"Hello, {name}!")
 
 name = input("What's your name? ")
+hello(name)
+
+#********************************************************************************
+# Function with default parameter
+#********************************************************************************
+
+def helloTest(to = "World"):
+    print(f"Hello, {to}!")
+
+helloTest()
+lastName = input("What's your name? ")
+helloTest(lastName)
