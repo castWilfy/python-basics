@@ -17,9 +17,7 @@ def main():
     consonant_count = 0
     
     for char in word:
-        print(char)
         if char.isalpha():  # Check if the character is a letter
-            print(char)
             if char in vowels:
                 vowel_count += 1
             else:
